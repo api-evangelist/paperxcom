@@ -1,8 +1,23 @@
 aid: paperxcom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paperxcom.png
 name: PaperX.com
-description: PaperX.com is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: PaperX.com was a dot-com-era B2B online marketplace for the European paper industry, a
+  former Insight Partners portfolio company that ceased operations in early 2001. The paperx.com domain
+  is now a parked domain (Bodis/ztomy parking nameservers serving an error page) with no live company
+  site, developer portal, documentation, or API surface. This profile was surfaced as an Insight
+  Partners portfolio lead and processed by the enrichment pipeline; the honest result is that there is
+  no discoverable API to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/paperxcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,26 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'paperx.com resolves only to parking nameservers (ztomy.com) serving an error page;
+  historical B2B European paper marketplace closed ~Feb 2001; no live API surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Paper Industry
+- Marketplace
+- B2B
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
